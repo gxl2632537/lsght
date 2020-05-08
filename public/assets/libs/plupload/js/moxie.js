@@ -4963,7 +4963,7 @@ define("moxie/xhr/XMLHttpRequest", [
 			uid: Basic.guid('uid_'),
 
 			/**
-			Target for Upload events
+			Target for Uploads events
 
 			@property upload
 			@type XMLHttpRequestUpload

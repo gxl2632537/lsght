@@ -74,7 +74,7 @@ return [
     'Index'                                                 => '首页',
     'Hot'                                                   => '热门',
     'Recommend'                                             => '推荐',
-    'Upload'                                                => '上传',
+    'Uploads'                                                => '上传',
     'Uploading'                                             => '上传中',
     'Code'                                                  => '编号',
     'Message'                                               => '内容',

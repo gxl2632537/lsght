@@ -1012,7 +1012,7 @@ EOD;
         if ($preview) {
             $options['data-preview-id'] = "p-{$domname}";
         }
-        $uploadBtn = $upload ? $this->button('<i class="fa fa-upload"></i> ' . __('Upload'), array_merge($options, $uploadAttr)) : '';
+        $uploadBtn = $upload ? $this->button('<i class="fa fa-upload"></i> ' . __('Uploads'), array_merge($options, $uploadAttr)) : '';
         $options = [
             'id'            => "fachoose-{$domname}",
             'class'         => "btn btn-danger fachoose",

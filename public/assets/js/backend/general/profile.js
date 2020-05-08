@@ -41,6 +41,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'upload'], function (
             $("#plupload-avatar").data("upload-success", function (data) {
                 var url = Backend.api.cdnurl(data.url);
                 $(".profile-user-img").prop("src", url);
+
                 Toastr.success("上传成功！");
             });
             

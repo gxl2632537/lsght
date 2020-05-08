@@ -1,0 +1,1071 @@
+---------------------------------------------------------------
+[ 2020-05-06T17:53:50+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/ajax/lang?callback=define&controllername=index&v=1588758827
+[运行时间：0.853562s] [吞吐率：1.17req/s] [内存消耗：5,139.69kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000397s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004342s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1588758827',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006293s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000955s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:53:51+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/ajax/lang?callback=define&controllername=dashboard&v=1588758829
+[运行时间：0.808900s] [吞吐率：1.24req/s] [内存消耗：5,138.06kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000413s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012842s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1588758829',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012092s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006020s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:53:53+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?addtabs=1
+[运行时间：0.636399s] [吞吐率：1.57req/s] [内存消耗：5,131.73kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000412s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008823s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banneritems',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005638s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ RUN ] app\admin\controller\Banner->bannerItems[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\bannerItems.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001048s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:53:55+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/ajax/lang?callback=define&controllername=banner&v=1588758833
+[运行时间：0.614807s] [吞吐率：1.63req/s] [内存消耗：5,135.05kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001844s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007628s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'banner',
+  'v' => '1588758833',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006621s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001413s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:53:57+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItems?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1588758834450
+[运行时间：0.589967s] [吞吐率：1.70req/s] [内存消耗：5,185.26kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000293s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003894s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerItems',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1588758834450',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ RUN ] app\admin\controller\Banner->bannerItems[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Banner.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001179s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:53:59+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1
+[运行时间：0.595928s] [吞吐率：1.68req/s] [内存消耗：5,136.09kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000313s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003977s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerItemsAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004342s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ RUN ] app\admin\controller\Banner->banneritemsadd[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\banneritemsadd.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'banner',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000865s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:00+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/ajax/lang?callback=define&controllername=banner&v=1588758838
+[运行时间：0.555070s] [吞吐率：1.80req/s] [内存消耗：5,135.05kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000289s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003593s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'banner',
+  'v' => '1588758838',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004075s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000898s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:08+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/image/bannerUpload
+[运行时间：0.620089s] [吞吐率：1.61req/s] [内存消耗：5,174.09kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000284s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003983s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'bannerUpload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya2WbJc4BcjNk4M2x',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '308452',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban01.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004169s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/image.php
+[ info ] [ RUN ] app\admin\controller\Image->bannerUpload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Image.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.022973s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:11+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/fastadmin.css.map
+[运行时间：0.919825s] [吞吐率：1.09req/s] [内存消耗：2,499.09kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000283s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004040s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:11+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/backend.css.map
+[运行时间：0.936874s] [吞吐率：1.07req/s] [内存消耗：2,499.05kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000283s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003836s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:11+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/bootstrap.css.map
+[运行时间：0.937461s] [吞吐率：1.07req/s] [内存消耗：2,499.09kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000287s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003882s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:11+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/skins/skin-green.css.map
+[运行时间：0.883318s] [吞吐率：1.13req/s] [内存消耗：2,499.02kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000432s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004032s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:16+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/image/bannerUpload
+[运行时间：0.623238s] [吞吐率：1.60req/s] [内存消耗：5,174.09kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000419s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008846s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'bannerUpload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8uK79lt7tm3NxNvd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '296549',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban03.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004295s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/image.php
+[ info ] [ RUN ] app\admin\controller\Image->bannerUpload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Image.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017193s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:28+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?element_id=fachoose-avatar&multiple=false&mimetype=image/*&admin_id=&user_id=&dialog=1
+[运行时间：0.616094s] [吞吐率：1.62req/s] [内存消耗：5,112.66kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000280s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008946s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/banneritems?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'element_id' => 'fachoose-avatar',
+  'multiple' => 'false',
+  'mimetype' => 'image/*',
+  'admin_id' => '',
+  'user_id' => '',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004334s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\general\Attachment.php ]
+[ info ] [ VIEW ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\general\attachment\select.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'mimetypeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001755s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/skins/skin-green.css.map
+[运行时间：0.951050s] [吞吐率：1.05req/s] [内存消耗：2,499.02kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000382s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004437s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/fastadmin.css.map
+[运行时间：0.959813s] [吞吐率：1.04req/s] [内存消耗：2,499.09kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000293s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014037s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/bootstrap.css.map
+[运行时间：0.970670s] [吞吐率：1.03req/s] [内存消耗：2,499.09kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000406s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004750s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/assets/css/backend.css.map
+[运行时间：1.036967s] [吞吐率：0.96req/s] [内存消耗：2,499.05kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000294s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003946s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/ajax/lang?callback=define&controllername=general.attachment&v=1588758867
+[运行时间：0.647005s] [吞吐率：1.55req/s] [内存消耗：5,136.55kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000453s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009999s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?element_id=fachoose-avatar&multiple=false&mimetype=image/*&admin_id=&user_id=&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.attachment',
+  'v' => '1588758867',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007504s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001081s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:32+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1588758868998
+[运行时间：0.650549s] [吞吐率：1.54req/s] [内存消耗：5,108.03kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000508s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004685s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?element_id=fachoose-avatar&multiple=false&mimetype=image/*&admin_id=&user_id=&dialog=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"mimetype":"image"}',
+  'op' => '{"mimetype":"LIKE %...%"}',
+  '_' => '1588758868998',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005550s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\general\Attachment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000882s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:41+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/ajax/upload
+[运行时间：0.632520s] [吞吐率：1.58req/s] [内存消耗：5,231.85kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000288s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003695s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?element_id=fachoose-avatar&multiple=false&mimetype=image/*&admin_id=&user_id=&dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary76jsDGOnqToP1Lqp',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '308452',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban01.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005614s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017451s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:54:42+08:00 ] 127.0.0.1 GET www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?sort=id&order=desc&offset=0&limit=10&filter=%7B%22mimetype%22%3A%22image%22%7D&op=%7B%22mimetype%22%3A%22LIKE+%25...%25%22%7D&_=1588758868999
+[运行时间：0.629684s] [吞吐率：1.59req/s] [内存消耗：5,108.73kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000301s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009671s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => 'select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/general/attachment/select?element_id=fachoose-avatar&multiple=false&mimetype=image/*&admin_id=&user_id=&dialog=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"mimetype":"image"}',
+  'op' => '{"mimetype":"LIKE %...%"}',
+  '_' => '1588758868999',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006381s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/general/attachment.php
+[ info ] [ RUN ] app\admin\controller\general\Attachment->select[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\general\Attachment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000821s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:55:00+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/image/bannerUpload
+[运行时间：0.622905s] [吞吐率：1.61req/s] [内存消耗：5,174.09kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000282s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003555s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'bannerUpload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryN6BpsdAJ9HASKpNv',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '296549',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban03.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006179s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/image.php
+[ info ] [ RUN ] app\admin\controller\Image->bannerUpload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Image.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.022705s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T17:55:08+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/image/bannerUpload
+[运行时间：0.653764s] [吞吐率：1.53req/s] [内存消耗：5,174.09kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000346s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009285s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'bannerUpload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPBJQ7pgvknciWXfB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '296549',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban03.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006718s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/image.php
+[ info ] [ RUN ] app\admin\controller\Image->bannerUpload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Image.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015872s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-06T18:01:49+08:00 ] 127.0.0.1 POST www.lsgxcx.com/GXSsjHZtyu.php/image/bannerUpload
+[运行时间：0.611266s] [吞吐率：1.64req/s] [内存消耗：5,174.09kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000284s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003837s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'bannerUpload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eood0tlt0e2ief99cb7au125ti; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lsgxcx.com/GXSsjHZtyu.php/banner/bannerItemsAdd?dialog=1',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZi63RmP7iwBY26CJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'origin' => 'http://www.lsgxcx.com',
+  'content-length' => '296549',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ban03.jpg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004086s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin/lang/zh-cn/image.php
+[ info ] [ RUN ] app\admin\controller\Image->bannerUpload[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\controller\Image.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.019147s ]
+[ info ] [ LOG ] INIT File

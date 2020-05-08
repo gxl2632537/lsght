@@ -48,7 +48,6 @@ class Banner extends Backend
                 ->where($where)
                 ->order($sort, $order)
                 ->count();
-
             $list = $this->model
                 ->where($where)
                 ->order($sort, $order)
@@ -77,13 +76,17 @@ class Banner extends Backend
                 ->order($sort, $order)
                 ->count();
 
-            //换成left join 查询获得banner位的信息
-            $list =   Db::table('ahlsg_banner_item')
-                ->alias('a')
-                ->join('ahlsg_banner b','a.banner_id = b.id',$type = 'left')
+            //关联查询  with 里面的是定义关联的方法 自定义
+             $list = $model
+                 ->with(['banner','img'])
+                ->where($where)
+                ->order($sort, $order)
+                ->limit($offset, $limit)
                 ->select();
 
+
             $list = collection($list)->toArray();
+
             $result = array("total" => $total, "rows" => $list);
 
             return json($result);
@@ -93,8 +96,10 @@ class Banner extends Backend
     //banneritems 添加
     public function banneritemsadd(){
         if ($this->request->isPost()) {
+            $this->model =new BannerItem();
             $params = $this->request->post("row/a");
             if ($params) {
+
                 $params = $this->preExcludeFields($params);
 
                 if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
@@ -109,7 +114,10 @@ class Banner extends Backend
                         $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.add' : $name) : $this->modelValidate;
                         $this->model->validateFailException(true)->validate($validate);
                     }
-                    $result = $this->model->allowField(true)->save($params);
+                    $params['createtime'] = time();
+                    $params['updatetime'] = time();
+                  $result = $this->model->allowField(true)->save($params);
+
                     Db::commit();
                 } catch (ValidateException $e) {
                     Db::rollback();
@@ -131,9 +139,102 @@ class Banner extends Backend
         }
         //获取所有的banner位
         $result = BannerModel::findAll();
-
         $this->view->assign('banner',$result);
         return $this->view->fetch('banneritemsadd');
+    }
+
+    //banneritems 删除
+    public function bannerItemsDel($ids){
+        if ($ids) {
+            $this->model = new BannerItem();
+            $pk = $this->model->getPk();
+            $adminIds = $this->getDataLimitAdminIds();
+            if (is_array($adminIds)) {
+                $this->model->where($this->dataLimitField, 'in', $adminIds);
+            }
+            $list = $this->model->where($pk, 'in', $ids)->select();
+
+            $count = 0;
+            Db::startTrans();
+            try {
+                foreach ($list as $k => $v) {
+                    $count += $v->delete();
+                }
+                Db::commit();
+            } catch (PDOException $e) {
+                Db::rollback();
+                $this->error($e->getMessage());
+            } catch (Exception $e) {
+                Db::rollback();
+                $this->error($e->getMessage());
+            }
+            if ($count) {
+                $this->success();
+            } else {
+                $this->error(__('No rows were deleted'));
+            }
+        }
+        $this->error(__('Parameter %s can not be empty', 'ids'));
+    }
+
+    //bannerItems 修改
+    public function bannerItemsEdit($ids = null){
+        $this->model = new BannerItem();
+        $row = $this->model->get($ids);
+        // 自定义 获取bannner name
+
+        $image=\app\admin\model\Image::get(['id'=>$row['img_id']]);
+        $row['url'] = $image['url'];
+
+
+        if (!$row) {
+            $this->error(__('No Results were found'));
+        }
+        $adminIds = $this->getDataLimitAdminIds();
+        if (is_array($adminIds)) {
+            if (!in_array($row[$this->dataLimitField], $adminIds)) {
+                $this->error(__('You have no permission'));
+            }
+        }
+        if ($this->request->isPost()) {
+            $params = $this->request->post("row/a");
+            if ($params) {
+                $params = $this->preExcludeFields($params);
+                unset($params['url']);
+                $result = false;
+                Db::startTrans();
+                try {
+                    //是否采用模型验证
+                    if ($this->modelValidate) {
+                        $name = str_replace("\\model\\", "\\validate\\", get_class($this->model));
+                        $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.edit' : $name) : $this->modelValidate;
+                        $row->validateFailException(true)->validate($validate);
+                    }
+                    $params['updatetime'] =time();
+                    $result = $row->allowField(true)->save($params);
+                    Db::commit();
+                } catch (ValidateException $e) {
+                    Db::rollback();
+                    $this->error($e->getMessage());
+                } catch (PDOException $e) {
+                    Db::rollback();
+                    $this->error($e->getMessage());
+                } catch (Exception $e) {
+                    Db::rollback();
+                    $this->error($e->getMessage());
+                }
+                if ($result !== false) {
+                    $this->success();
+                } else {
+                    $this->error(__('No rows were updated'));
+                }
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        $this->view->assign("row", $row);
+        $result = BannerModel::findAll();
+        $this->view->assign('banner',$result);
+       return $this->view->fetch('banneritemsedit');
     }
 
 }

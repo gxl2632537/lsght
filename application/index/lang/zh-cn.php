@@ -69,7 +69,7 @@ return [
     'This month'                                             => '本月',
     'Choose'                                                 => '选择',
     'Append'                                                 => '追加',
-    'Upload'                                                 => '上传',
+    'Uploads'                                                 => '上传',
     'Memo'                                                   => '备注',
     'Parent'                                                 => '父级',
     'Params'                                                 => '参数',

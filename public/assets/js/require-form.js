@@ -253,9 +253,12 @@ define(['jquery', 'bootstrap', 'upload', 'validator'], function ($, undefined, U
                                             Toastr.error(__('You can choose up to %d file%s', remains));
                                             return false;
                                         }
+
                                     }
                                     inputObj.val(result).trigger("change").trigger("validate");
                                 } else {
+                                    //在回调中给数据加上img_id 的值 自定义
+                                    $("#c-img_id").val(data.id);
                                     $("#" + input_id).val(data.url).trigger("change").trigger("validate");
                                 }
                             }

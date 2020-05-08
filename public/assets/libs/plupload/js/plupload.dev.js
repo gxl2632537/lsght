@@ -120,7 +120,7 @@ var plupload = {
 	STOPPED : 1,
 
 	/**
-	 * Upload process is running
+	 * Uploads process is running
 	 *
 	 * @property STARTED
 	 * @static
@@ -1638,7 +1638,7 @@ plupload.Uploader = function(options) {
 	function onFileUploaded(up) {
 		calc();
 
-		// Upload next file but detach it from the error event
+		// Uploads next file but detach it from the error event
 		// since other custom listeners might want to stop the queue
 		delay(function() {
 			uploadNext.call(up);
@@ -1655,7 +1655,7 @@ plupload.Uploader = function(options) {
 			err.file.status = plupload.FAILED;
 			calcFile(err.file);
 
-			// Upload next file but detach it from the error event
+			// Uploads next file but detach it from the error event
 			// since other custom listeners might want to stop the queue
 			if (up.state == plupload.STARTED) { // upload in progress
 				up.trigger('CancelUpload');

@@ -192,11 +192,14 @@ define(['jquery', 'bootstrap', 'toastr', 'layer', 'lang'], function ($, undefine
             close: function (data) {
                 var index = parent.Layer.getFrameIndex(window.name);
                 var callback = parent.$("#layui-layer" + index).data("callback");
+
                 //再执行关闭
                 parent.Layer.close(index);
                 //再调用回传函数
                 if (typeof callback === 'function') {
+
                     callback.call(undefined, data);
+
                 }
             },
             layerfooter: function (layero, index, that) {

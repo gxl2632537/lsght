@@ -139,9 +139,29 @@ class Ajax extends Backend
             $attachment = model("attachment");
             $attachment->data(array_filter($params));
             $attachment->save();
+
+            //选择的时候写入image表中
+            $images= model("image");
+            $params =[
+                'url'=>$uploadDir . $splInfo->getSaveName(),
+                'from'=>1,
+                'createtime'=>time(),
+                'updatetime'=>time()
+            ];
+            //在插入数据前判断url 是否已经存在，如果存在则不执行插入数据
+            $imageid = '';
+            if (in_array($fileInfo['type'], ['image/gif', 'image/jpg', 'image/jpeg', 'image/bmp', 'image/png', 'image/webp']) || in_array($suffix, ['gif', 'jpg', 'jpeg', 'bmp', 'png', 'webp'])) {
+                $res = $images->where(['url' => $uploadDir . $splInfo->getSaveName()])->find();
+                $imageid = $res['id'];
+                if (!$res) {
+                    $imageid = Db::name('image')->insertGetId($params);
+                }
+            }
             \think\Hook::listen("upload_after", $attachment);
-            $this->success(__('Upload successful'), null, [
-                'url' => $uploadDir . $splInfo->getSaveName()
+
+            $this->success(__('Uploads successful'), null, [
+                'url' => $uploadDir . $splInfo->getSaveName(),
+                'img_id'=>$imageid
             ]);
         } else {
             // 上传失败获取错误信息

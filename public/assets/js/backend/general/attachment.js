@@ -70,6 +70,7 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
                     index_url: 'general/attachment/select',
                 }
             });
+            //返回到前端的数据 这里自定义增加 id 属性 方便给img_id 赋值
             var urlArr = [];
 
             var table = $("#table");
@@ -77,19 +78,26 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
             table.on('check.bs.table uncheck.bs.table check-all.bs.table uncheck-all.bs.table', function (e, row) {
                 if (e.type == 'check' || e.type == 'uncheck') {
                     row = [row];
+
                 } else {
                     urlArr = [];
                 }
+                //选择项的属性 自定义增加了id属性
                 $.each(row, function (i, j) {
+
                     if (e.type.indexOf("uncheck") > -1) {
+
                         var index = urlArr.indexOf(j.url);
+                        var ids = urlArr.indexOf(j.url);
                         if (index > -1) {
-                            urlArr.splice(index, 1);
+                            urlArr.splice(index, 1,ids);
                         }
                     } else {
-                        urlArr.indexOf(j.url) == -1 && urlArr.push(j.url);
+                        urlArr.indexOf(j.url) == -1 && urlArr.push(j.url) && urlArr.push(j.id);
                     }
                 });
+
+
             });
 
             // 初始化表格
@@ -117,9 +125,12 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
                         {
                             field: 'operate', title: __('Operate'), events: {
                                 'click .btn-chooseone': function (e, value, row, index) {
+
                                     var multiple = Backend.api.query('multiple');
                                     multiple = multiple == 'true' ? true : false;
-                                    Fast.api.close({url: row.url, multiple: multiple});
+                                    //关闭窗口并回传数据 这里增加上id数据 即img_id 自定义
+
+                                    Fast.api.close({url: row.url, id:row.id,multiple: multiple});
                                 },
                             }, formatter: function () {
                                 return '<a href="javascript:;" class="btn btn-danger btn-chooseone btn-xs"><i class="fa fa-check"></i> ' + __('Choose') + '</a>';
@@ -137,6 +148,7 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
                 // });
                 var multiple = Backend.api.query('multiple');
                 multiple = multiple == 'true' ? true : false;
+
                 Fast.api.close({url: urlArr.join(","), multiple: multiple});
             });
 
@@ -168,6 +180,7 @@ define(['jquery', 'bootstrap', 'backend', 'form', 'table'], function ($, undefin
                     }
                 },
                 url: function (value, row, index) {
+
                     return '<a href="' + row.fullurl + '" target="_blank" class="label bg-green">' + value + '</a>';
                 },
             }

@@ -69,6 +69,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                                 urlArr.push(inputObj.val());
                             }
                             urlArr.push(data.url);
+
                             inputObj.val(urlArr.join(",")).trigger("change").trigger("validate");
                         }
                         //如果有回调函数
@@ -132,6 +133,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                 },
                 //上传全部结束后
                 onUploadComplete: function (up, files) {
+
                     var button = up.settings.button;
                     var onUploadComplete = up.settings.onUploadComplete;
                     if (button) {
@@ -180,6 +182,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
 
                         //上传URL
                         url = url ? url : Config.upload.uploadurl;
+
                         url = Fast.api.fixurl(url);
                         //最大可上传文件大小
                         maxsize = typeof maxsize !== "undefined" ? maxsize : Config.upload.maxsize;
@@ -220,7 +223,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                                 BeforeUpload: Upload.events.onBeforeUpload,
                                 UploadProgress: function (up, file) {
                                     var button = up.settings.button;
-                                    $(button).prop("disabled", true).html("<i class='fa fa-upload'></i> " + __('Upload') + file.percent + "%");
+                                    $(button).prop("disabled", true).html("<i class='fa fa-upload'></i> " + __('Uploads') + file.percent + "%");
                                     Upload.events.onUploadProgress(up, file);
                                 },
                                 FileUploaded: function (up, file, info) {
@@ -243,8 +246,14 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                                     Upload.events.onUploadError(up, ret);
                                 }
                             },
-                            onUploadSuccess: onUploadSuccess,
-                            onUploadError: onUploadError,
+                            // onUploadSuccess: onUploadSuccess,
+
+                            //获取图片上传成功后的返回值（这里作为回调函数-自定义）
+                            onUploadSuccess: function(res){
+                             var img_id = parseInt(res.img_id);
+                              $('#c-img_id').val(img_id);
+                            },
+                             onUploadError: onUploadError,
                             onUploadComplete: onUploadComplete,
                             button: that
                         });
@@ -304,6 +313,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                                         return true;
                                     }
                                     var data = {url: j, fullurl: Fast.api.cdnurl(j), data: $(that).data(), key: i, index: i, value: (json && typeof json[i] !== 'undefined' ? json[i] : null)};
+
                                     var html = tpl ? Template(tpl, data) : Template.render(Upload.config.previewtpl, data);
                                     $("#" + preview_id).append(html);
                                 });
@@ -311,12 +321,15 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                             $("#" + input_id).trigger("change");
                         }
                         if (preview_id) {
+
                             //监听文本框改变事件
                             $("#" + preview_id).on('change keyup', "input,textarea,select", function () {
+
                                 refresh($(this).closest("ul").data("name"));
                             });
                             // 监听事件
                             $(document.body).on("fa.preview.change", "#" + preview_id, function () {
+
                                 var urlArr = [];
                                 $("#" + preview_id + " [data-url]").each(function (i, j) {
                                     urlArr.push($(this).data("url"));
@@ -328,6 +341,7 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                             });
                             // 移除按钮事件
                             $(document.body).on("click", "#" + preview_id + " .btn-trash", function () {
+                                $('#c-img_id').val('');
                                 $(this).closest("li").remove();
                                 $("#" + preview_id).trigger("fa.preview.change");
                             });
@@ -389,8 +403,9 @@ define(['jquery', 'bootstrap', 'plupload', 'template'], function ($, undefined, 
                     Upload.events.onPostInit = function () {
                         // 当加载完成后添加文件并上传
                         Upload.list[id].addFile(file);
-                        //Upload.list[id].start();
+                        //Uploads.list[id].start();
                     };
+
                     $('<button type="button" id="' + id + '" class="btn btn-danger hidden plupload" />').appendTo("body");
                     $("#" + id).data("upload-complete", function (files) {
                         Upload.events.onPostInit = _onPostInit;

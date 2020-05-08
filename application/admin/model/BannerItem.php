@@ -26,5 +26,9 @@ class BannerItem extends Model
         return $this->belongsTo('Image', 'img_id', 'id'); //关联模型名，外键名，关联模型的主键
     }
 
+   public function banner(){
+       return $this->hasOne('Banner','id','banner_id');
+   }
+
 
 }

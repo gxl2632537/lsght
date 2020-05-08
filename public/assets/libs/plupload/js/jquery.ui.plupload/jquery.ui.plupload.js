@@ -466,7 +466,7 @@ $.widget("ui.plupload", {
 					break;
 
 				case self.FILE_COUNT_ERROR:
-					details = plupload.sprintf(_("Upload element accepts only %d file(s) at a time. Extra files were stripped."), up.getOption('filters').max_file_count || 0);
+					details = plupload.sprintf(_("Uploads element accepts only %d file(s) at a time. Extra files were stripped."), up.getOption('filters').max_file_count || 0);
 					break;
 
 				case plupload.IMAGE_FORMAT_ERROR :
@@ -483,7 +483,7 @@ $.widget("ui.plupload", {
 					break;	*/
 
 				case plupload.HTTP_ERROR:
-					details = _("Upload URL might be wrong or doesn't exist.");
+					details = _("Uploads URL might be wrong or doesn't exist.");
 					break;
 			}
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:101:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\banneritemsadd.html";i:1588584758;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:101:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\banneritemsadd.html";i:1588901441;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -51,39 +51,54 @@
                             <?php endif; ?>
                             <div class="content">
                                 <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
-
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('关键字'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('关键字描述'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-key_word" class="form-control" name="row[key_word]" type="text">
+            <input id="c-key_word" class="form-control" name="row[key_word]" type="text" data-rule="required">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('跳转类型'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <select class="form-control" name="row[type]">
-                <option value="0">无导项</option>
+            <select class="form-control" name="row[type]" data-rule="required">
                 <option value="1">导向普通页</option>
                 <option value="2">导向商品</option>
                 <option value="3">导向专题</option>
             </select>
         </div>
     </div>
-
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('位置'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <select class="form-control" name="row[banner_id]">
+            <select class="form-control" name="row[banner_id]" data-rule="required">
                 <?php if(is_array($banner) || $banner instanceof \think\Collection || $banner instanceof \think\Paginator): $i = 0; $__LIST__ = $banner;if( count($__LIST__)==0 ) : echo "没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                 <option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
                 <?php endforeach; endif; else: echo "没有数据" ;endif; ?>
             </select>
         </div>
     </div>
+
+
+    <div class="form-group">
+        <label for="c-avatar" class="control-label col-xs-12 col-sm-2">Banner图片:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-avatar" data-rule="required" class="form-control" size="50" name="row[url]" type="text" readonly >
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload"   data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> 上传</button></span>
+                    <span><button type="button" id="fachoose-avatar" class="btn btn-primary fachoose" data-input-id="c-avatar" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> 选择</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-avatar"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+        </div>
+    </div>
+    <!-- 图片的id-->
+    <input id="c-img_id" class="form-control" name="row[img_id]" type="hidden" value="">
     <div class="form-group layer-footer">
         <label class="control-label col-xs-12 col-sm-2"></label>
         <div class="col-xs-12 col-sm-8">
-            <button type="submit" class="btn btn-success btn-embossed disabled"><?php echo __('OK'); ?></button>
+            <button type="submit" class="btn btn-success  "><?php echo __('OK'); ?></button>
             <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
         </div>
     </div>

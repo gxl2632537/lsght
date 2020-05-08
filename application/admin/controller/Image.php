@@ -3,7 +3,7 @@
 namespace app\admin\controller;
 
 use app\common\controller\Backend;
-
+use app\common\model\Uploads;
 /**
  * 图片总管理
  *
@@ -72,5 +72,12 @@ class Image extends Backend
             return json($result);
         }
         return $this->view->fetch();
+    }
+    //用于接收用户上传的banner图并做处理
+    public function bannerUpload(){
+        if($this->request->isPost()){
+            $model = new Uploads();
+             $model->upload();
+        }
     }
 }
