@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\user\group\add.html";i:1583049507;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:104:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\general\attachment\index.html";i:1583049507;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -50,46 +50,34 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
-    <input type="hidden" name="row[rules]" />
-    <div class="form-group">
-        <label for="c-name" class="control-label col-xs-12 col-sm-2"><?php echo __('Name'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-name" class="form-control" name="row[name]" type="text" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Permission'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <span class="text-muted"><input type="checkbox" name="" id="checkall" /> <label for="checkall"><small><?php echo __('Check all'); ?></small></label></span>
-            <span class="text-muted"><input type="checkbox" name="" id="expandall" /> <label for="expandall"><small><?php echo __('Expand all'); ?></small></label></span>
+                                <div class="panel panel-default panel-intro">
 
-            <div id="treeview"></div>
-        </div>
+    <div class="panel-heading">
+        <?php echo build_heading(null,FALSE); ?>
+        <ul class="nav nav-tabs" data-field="mimetype">
+            <li class="active"><a href="#t-all" data-value="" data-toggle="tab"><?php echo __('All'); ?></a></li>
+            <?php if(is_array($mimetypeList) || $mimetypeList instanceof \think\Collection || $mimetypeList instanceof \think\Paginator): if( count($mimetypeList)==0 ) : echo "" ;else: foreach($mimetypeList as $key=>$vo): ?>
+            <li><a href="#t-<?php echo $key; ?>" data-value="<?php echo $key; ?>" data-toggle="tab"><?php echo $vo; ?></a></li>
+            <?php endforeach; endif; else: echo "" ;endif; ?>
+        </ul>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Status'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
 
-            <div class="radio">
-                <?php if(is_array($statusList) || $statusList instanceof \think\Collection || $statusList instanceof \think\Paginator): if( count($statusList)==0 ) : echo "" ;else: foreach($statusList as $key=>$vo): ?>
-                <label for="row[status]-<?php echo $key; ?>"><input id="row[status]-<?php echo $key; ?>" name="row[status]" type="radio" value="<?php echo $key; ?>" <?php if(in_array(($key), explode(',',"normal"))): ?>checked<?php endif; ?> /> <?php echo $vo; ?></label> 
-                <?php endforeach; endif; else: echo "" ;endif; ?>
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="one">
+                <div class="widget-body no-padding">
+                    <div id="toolbar" class="toolbar">
+                        <?php echo build_toolbar('refresh,add,edit,del'); ?>
+                    </div>
+                    <table id="table" class="table table-striped table-bordered table-hover" width="100%">
+                    </table>
+                </div>
             </div>
 
         </div>
     </div>
-    <div class="form-group layer-footer">
-        <label class="control-label col-xs-12 col-sm-2"></label>
-        <div class="col-xs-12 col-sm-8">
-            <button type="submit" class="btn btn-success btn-embossed disabled"><?php echo __('OK'); ?></button>
-            <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
-        </div>
-    </div>
-</form>
-<script>
-    var nodeData = <?php echo json_encode($nodeList);; ?>;
-</script>
+</div>
+
                             </div>
                         </div>
                     </div>
