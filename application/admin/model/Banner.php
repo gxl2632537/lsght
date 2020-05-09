@@ -30,11 +30,11 @@ class Banner extends Model
         return $this->hasMany('BannerItem', 'banner_id', 'id');
     }
 
-    public static function getBannerByID($id)
-    {
-        $banner = self::with(['items', 'items.img'])->find($id); // with 接收一个数组
-        return $banner;
-    }
+//    public static function getBannerByID($id)
+//    {
+//        $banner = self::with(['items', 'items.img'])->find($id); // with 接收一个数组
+//        return $banner;
+//    }
 
     public static function findAll(){
         $response =self::where(['deletetime'=>null])->select();
@@ -43,6 +43,20 @@ class Banner extends Model
         }
     }
 
+    /**
+     * @param $id int banner所在位置
+     * @return Banner
+     */
+    public static function getBannerById($id)
+    {
+        //关联items 方法 和banneritem下的img方法
+        $banner = self::with(['items','items.img'])
+            ->find($id);
+
+//         $banner = BannerModel::relation('items,items.img')
+//             ->find($id);
+        return $banner;
+    }
 
     
 

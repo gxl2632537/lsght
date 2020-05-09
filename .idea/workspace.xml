@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b329f3-7d1b-45f5-bd4f-526966cb1c29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/api/controller/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/library/BaseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/library/ForbiddenException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/library/MissException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/library/TokenException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/library/enum/ScopeEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/api/service/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/library/ParameterException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/validate/IDMustBePositivelnt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/general/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/general/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/library/ExceptionHandle.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/library/ExceptionHandle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/extra/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/extra/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/model/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/model/Banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/model/BannerItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/model/BannerItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/v1/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/v1/Banner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runtime/log/202005/08.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/202005/08.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/298aeebf14e570a5d4133a90c162cd57.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/2fd9fb93d8a618776e0e402a359a8287.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/4a7f2704d5225ef2a27115869e05457b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/4b5d65d537f179fa5445064d4ea324cb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/537fc527983fbd4e4d5dcfc5afd191a5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/67bdef36b38ba76054e79ded2904553e.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/90f6e1dc4d88e0e2c45c87d47da24c8a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/9709b415607179a82956df34b6844ea1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a972bec68ea8c425d067faa039613423.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/a972bec68ea8c425d067faa039613423.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/b7c318ac556993279afed6c8a912c251.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bbb08432b76f2fcb5248b662f08f8aa7.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/bbb08432b76f2fcb5248b662f08f8aa7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/be86f4a440ff03fa748cdd897a092538.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bf1d82b9970fd84acce9b79b6ba2cc80.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/bf1d82b9970fd84acce9b79b6ba2cc80.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/c63780207d0d8e8613a9c5a676585f02.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/cc114d4f9e44500e76a785fbbde5e432.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/e3bab9dac9ccc5ab4fbef2fe51d9bd7c.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,100 +23,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-              <folding>
-                <element signature="e#56#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/ForbiddenException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/enum/ScopeEnum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/BaseException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/ExceptionHandle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="469">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
-                <element signature="e#35#49#0#PHP" expanded="true" />
+                <element signature="e#43#81#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/BaseController.php">
+        <entry file="file://$PROJECT_DIR$/application/admin/model/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="570">
+              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding>
-                <element signature="e#39#65#0#PHP" expanded="true" />
+                <element signature="e#35#51#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/Token.php">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="-393">
+              <caret line="2628" column="20" selection-start-line="2628" selection-start-column="20" selection-end-line="2628" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/MissException.php">
+        <entry file="file://$PROJECT_DIR$/application/admin/model/BannerItem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="570">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <folding>
+                <element signature="e#37#53#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/library/TokenException.php">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="-59">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#40#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+              <folding>
+                <element signature="e#37#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Validate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="409" selection-start-line="409" selection-end-line="409" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#630#672#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/validate/IDMustBePositivelnt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -212,7 +199,6 @@
         <option value="$PROJECT_DIR$/application/admin/view/banner/index.html" />
         <option value="$PROJECT_DIR$/application/admin/view/banner/bannerPosition.html" />
         <option value="$PROJECT_DIR$/application/admin/view/banner/bannerItems.html" />
-        <option value="$PROJECT_DIR$/application/admin/model/Banner.php" />
         <option value="$PROJECT_DIR$/application/admin/view/banner/add.html" />
         <option value="$PROJECT_DIR$/application/common/model/Uploads.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Image.php" />
@@ -220,7 +206,6 @@
         <option value="$PROJECT_DIR$/public/assets/js/require-upload.js" />
         <option value="$PROJECT_DIR$/public/assets/js/fast.js" />
         <option value="$PROJECT_DIR$/public/assets/js/require-form.js" />
-        <option value="$PROJECT_DIR$/application/admin/model/BannerItem.php" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/general/attachment.js" />
         <option value="$PROJECT_DIR$/application/admin/controller/Ajax.php" />
         <option value="$PROJECT_DIR$/public/assets/js/require-backend.min.js" />
@@ -228,7 +213,6 @@
         <option value="$PROJECT_DIR$/application/admin/view/banner/banneritemsedit.html" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/banner.js" />
         <option value="$PROJECT_DIR$/application/admin/controller/Banner.php" />
-        <option value="$PROJECT_DIR$/application/api/controller/v1/Banner.php" />
         <option value="$PROJECT_DIR$/application/api/library/BaseException.php" />
         <option value="$PROJECT_DIR$/application/api/library/ExceptionHandle.php" />
         <option value="$PROJECT_DIR$/application/api/common.php" />
@@ -239,6 +223,12 @@
         <option value="$PROJECT_DIR$/application/api/library/MissException.php" />
         <option value="$PROJECT_DIR$/application/api/controller/BaseController.php" />
         <option value="$PROJECT_DIR$/application/api/service/Token.php" />
+        <option value="$PROJECT_DIR$/application/api/library/ParameterException.php" />
+        <option value="$PROJECT_DIR$/application/api/validate/IDMustBePositivelnt.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/BannerItem.php" />
+        <option value="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/Banner.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/v1/Banner.php" />
       </list>
     </option>
   </component>
@@ -284,10 +274,10 @@
     </include_path>
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="111" />
-    <option name="width" value="1332" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="450" />
+    <option name="y" value="49" />
+    <option name="width" value="1179" />
     <option name="height" value="919" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -296,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,6 +297,19 @@
               <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
@@ -327,14 +329,21 @@
               <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
@@ -359,13 +368,26 @@
             <path>
               <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wwwlsgxcxcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwwlsgxcxcom" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +415,7 @@
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="lsg" start_url="/public/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="lsg" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="lsg" start_url="/GXSsjHZtyu.php/banner/bannerItemsEdit?ref=addtabs">
+    <configuration name="lsg" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="lsg" start_url="/api/v1/banner/getBanner?ref=addtabs">
       <method v="2" />
     </configuration>
   </component>
@@ -424,11 +446,13 @@
       <workItem from="1588898203469" duration="315000" />
       <workItem from="1588898713463" duration="1674000" />
       <workItem from="1588900442433" duration="7262000" />
+      <workItem from="1588931660894" duration="392000" />
+      <workItem from="1588984499181" duration="9984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84139000" />
+    <option name="totallyTimeSpent" value="94802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,16 +464,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="111" width="1332" height="919" extended-state="0" />
+    <frame x="450" y="49" width="1179" height="919" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2413522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30205542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32739422" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4976415" visible="true" weight="0.36136663" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49687222" visible="true" weight="0.03942181" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
@@ -457,7 +481,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5023585" side_tool="true" weight="0.36136663" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5031278" side_tool="true" visible="true" weight="0.03942181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -489,81 +513,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/view/general/attachment/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/fast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/banner/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="114" selection-start-line="11" selection-start-column="114" selection-end-line="11" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/Banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="e#35#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/require.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/require-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="261" column="106" selection-start-line="261" selection-start-column="106" selection-end-line="261" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/general/attachment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="114" column="118" selection-start-line="114" selection-start-column="113" selection-end-line="114" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/require-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9082">
-          <caret line="478" column="18" selection-start-line="474" selection-start-column="16" selection-end-line="478" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/BannerItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#37#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/require-backend.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -682,30 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/GXSsjHZtyu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#630#672#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,33 +715,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/library/MissException.php">
+    <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="386">
+          <caret line="80" column="51" lean-forward="true" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/Token.php">
+    <entry file="file://$PROJECT_DIR$/application/api/library/ForbiddenException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="209">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
+    <entry file="file://$PROJECT_DIR$/application/api/controller/Validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/library/ExceptionHandle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="323">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#35#49#0#PHP" expanded="true" />
+            <element signature="e#38#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -820,14 +742,21 @@
     <entry file="file://$PROJECT_DIR$/application/api/library/enum/ScopeEnum.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/library/ForbiddenException.php">
+    <entry file="file://$PROJECT_DIR$/application/api/controller/Token.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="722">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/library/MissException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -838,29 +767,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/application/api/library/ExceptionHandle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="152">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
-            <element signature="e#39#65#0#PHP" expanded="true" />
+            <element signature="e#35#49#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/library/BaseException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
+    <entry file="file://$PROJECT_DIR$/application/api/library/ParameterException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+        <state relative-caret-position="190">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="e#56#74#0#PHP" expanded="true" />
+            <element signature="e#39#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#630#672#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/IDMustBePositivelnt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <folding>
+            <element signature="e#37#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Validate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="e#35#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="2628" column="20" selection-start-line="2628" selection-start-column="20" selection-end-line="2628" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/BannerItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#37#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="e#43#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

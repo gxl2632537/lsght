@@ -31,4 +31,6 @@ class BannerItem extends Model
    }
 
 
+
+
 }
