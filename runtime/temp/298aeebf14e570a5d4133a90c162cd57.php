@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:104:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\general\attachment\index.html";i:1583049507;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:101:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\bannerPosition.html";i:1588579418;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -51,25 +51,32 @@
                             <?php endif; ?>
                             <div class="content">
                                 <div class="panel panel-default panel-intro">
-
-    <div class="panel-heading">
-        <?php echo build_heading(null,FALSE); ?>
-        <ul class="nav nav-tabs" data-field="mimetype">
-            <li class="active"><a href="#t-all" data-value="" data-toggle="tab"><?php echo __('All'); ?></a></li>
-            <?php if(is_array($mimetypeList) || $mimetypeList instanceof \think\Collection || $mimetypeList instanceof \think\Paginator): if( count($mimetypeList)==0 ) : echo "" ;else: foreach($mimetypeList as $key=>$vo): ?>
-            <li><a href="#t-<?php echo $key; ?>" data-value="<?php echo $key; ?>" data-toggle="tab"><?php echo $vo; ?></a></li>
-            <?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
-    </div>
-
+    <?php echo build_heading(); ?>
     <div class="panel-body">
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="one">
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
-                        <?php echo build_toolbar('refresh,add,edit,del'); ?>
+                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('banner/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('banner/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('banner/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('banner/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
+
+                        <div class="dropdown btn-group <?php echo $auth->check('banner/multi')?'':'hide'; ?>">
+                            <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> <?php echo __('More'); ?></a>
+                            <ul class="dropdown-menu text-left" role="menu">
+                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> <?php echo __('Set to normal'); ?></a></li>
+                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=hidden"><i class="fa fa-eye-slash"></i> <?php echo __('Set to hidden'); ?></a></li>
+                            </ul>
+                        </div>
+
+
                     </div>
-                    <table id="table" class="table table-striped table-bordered table-hover" width="100%">
+                    <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
+                           data-operate-edit="<?php echo $auth->check('banner/edit'); ?>"
+                           data-operate-del="<?php echo $auth->check('banner/del'); ?>"
+                           width="100%">
                     </table>
                 </div>
             </div>

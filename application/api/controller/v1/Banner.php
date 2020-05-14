@@ -30,7 +30,10 @@ class Banner extends BaseController
      */
     public function getBanner($id)
     {
+        //跨域需要引入的文件
 
+
+       config('crossDomainRequest.header');
        $validate = new IDMustBePositivelnt();
        $validate->goCheck();
        //id 为1 是首页置顶 这里是查找为首页置顶的即id为1的所有baneritem ，img的关联写在模型方法里面 // api 地址 http://www.lsgxcx.com/api/v1/banner/getBanner/id/1
@@ -42,6 +45,9 @@ class Banner extends BaseController
             ]);
         }
         return $banner;
+    }
+    public function hello($id){
+        echo '11';
     }
 }
 

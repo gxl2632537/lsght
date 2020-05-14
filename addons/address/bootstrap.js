@@ -1,5 +1,4 @@
-define([], function () {
-    require([], function () {
+require([], function () {
     //绑定data-toggle=addresspicker属性点击事件
 
     $(document).on('click', "[data-toggle='addresspicker']", function () {
@@ -28,6 +27,4 @@ define([], function () {
             }
         });
     });
-});
-
 });
