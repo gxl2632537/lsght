@@ -24,6 +24,8 @@ class Store extends Backend
         $this->model = new \app\admin\model\Store;
 
     }
+
+
     
     /**
      * 默认生成的控制器所继承的父类中有index/add/edit/del/multi五个基础方法、destroy/restore/recyclebin三个回收站方法

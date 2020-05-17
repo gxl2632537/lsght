@@ -46,8 +46,6 @@ class Banner extends BaseController
         }
         return $banner;
     }
-    public function hello($id){
-        echo '11';
-    }
+
 }
 

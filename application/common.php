@@ -362,3 +362,26 @@ if (!function_exists('hsv2rgb')) {
         ];
     }
 }
+
+if(!function_exists('card_random_num')){
+
+    function card_random_num($type=0, $func='md5')
+    {
+        $uid = md5(uniqid(rand(), true) . microtime());
+        $hash = hash($func, $uid);
+        $arr = str_split($hash);
+        foreach ($arr as $v) {
+            if ($type == 0) {
+                $newArr[] = empty(rand(0, 1)) ? strtoupper($v) : $v;
+            }
+            if ($type == 1) {
+                $newArr[] = strtoupper($v);
+            }
+            if ($type == 2) {
+                $newArr[] = $v;
+            }
+        }
+        return implode('', $newArr);
+    }
+}
+

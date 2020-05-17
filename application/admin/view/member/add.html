@@ -1,0 +1,64 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_name" class="form-control" name="row[member_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_birthday')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_birthday" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[member_birthday]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_tel')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_tel" class="form-control" name="row[member_tel]" type="number" data-rule="required">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_store_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+
+            <select name="row[member_store_id]"  id="c-member_store_id" class="selectpicker" data-rule="required">
+                {volist name ="store" id="vo" empty="暂时没有数据"}
+                    <option value="{$vo.id}">{$vo.manage_name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_integral')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_integral" class="form-control" name="row[member_integral]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_stored_value')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_stored_value" class="form-control" name="row[member_stored_value]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_card_validity')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_card_validity" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[member_card_validity]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('状态')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:Form::switcher('row[status]', '1', ['color'=>'green', 'disabled'=>true])}
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

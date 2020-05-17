@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:98:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\banner\bannerItems.html";i:1588582711;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:92:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/admin\view\member\index.html";i:1589680072;s:84:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\layout\default.html";i:1583049507;s:81:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\meta.html";i:1588499659;s:83:"D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\admin\view\common\script.html";i:1583049507;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -59,12 +59,12 @@
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
                         <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
-                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('banner/bannerItemsAdd')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
-                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('banner/bannerItemsEdit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
-                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('banner/bannerItemsDel')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
-                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('banner/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('member/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('member/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('member/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-import <?php echo $auth->check('member/import')?'':'hide'; ?>" title="<?php echo __('Import'); ?>" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> <?php echo __('Import'); ?></a>
 
-                        <div class="dropdown btn-group <?php echo $auth->check('banner/multi')?'':'hide'; ?>">
+                        <div class="dropdown btn-group <?php echo $auth->check('member/multi')?'':'hide'; ?>">
                             <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> <?php echo __('More'); ?></a>
                             <ul class="dropdown-menu text-left" role="menu">
                                 <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> <?php echo __('Set to normal'); ?></a></li>
@@ -72,13 +72,11 @@
                             </ul>
                         </div>
 
-
-
-
+                        <a class="btn btn-success btn-recyclebin btn-dialog <?php echo $auth->check('member/recyclebin')?'':'hide'; ?>" href="member/recyclebin" title="<?php echo __('Recycle bin'); ?>"><i class="fa fa-recycle"></i> <?php echo __('Recycle bin'); ?></a>
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-edit="<?php echo $auth->check('banner/edit'); ?>"
-                           data-operate-del="<?php echo $auth->check('banner/del'); ?>"
+                           data-operate-edit="<?php echo $auth->check('member/edit'); ?>" 
+                           data-operate-del="<?php echo $auth->check('member/del'); ?>" 
                            width="100%">
                     </table>
                 </div>

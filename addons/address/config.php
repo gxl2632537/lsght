@@ -12,7 +12,7 @@ return array (
       'amap' => '高德地图',
       'tencent' => '腾讯地图',
     ),
-    'value' => 'amap',
+    'value' => 'tencent',
     'rule' => 'required',
     'msg' => '',
     'tip' => '',
@@ -117,7 +117,7 @@ return array (
     'content' => 
     array (
     ),
-    'value' => '608d75903d29ad471362f8c58c550daf',
+    'value' => 'Q66BZ-M323F-AIUJA-JCV26-AMBEJ-JKBIT',
     'rule' => 'required',
     'msg' => '',
     'tip' => '',
