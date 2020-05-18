@@ -1585,3 +1585,2126 @@
 [ info ] [ RUN ] app\api\controller\v1\Store->getStoreById[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:24:09+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.310387s] [吞吐率：3.22req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000177s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009812s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009859s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:24:09+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.311548s] [吞吐率：3.21req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000188s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005421s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011h18vW1w5i2Y033TyW1dxKuW1h18vc',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004353s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:24:09+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.396015s] [吞吐率：2.53req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000208s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006202s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005517s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:26:10+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.196795s] [吞吐率：5.08req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000693s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004782s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004541s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:26:10+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.142175s] [吞吐率：7.03req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000241s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007408s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001Bf2O200cvhH1lgtP20sQSN20Bf2OL',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005347s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:26:10+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.173822s] [吞吐率：5.75req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000327s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010981s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003515s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:29:06+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken?code=1111112
+[运行时间：0.124378s] [吞吐率：8.04req/s] [内存消耗：2,694.32kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000198s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004125s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=mrkem9ojcc5irft24bmje5vt5f',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'www.lsgxcx.com',
+  'postman-token' => '2784ae66-902e-4ab6-9fea-8af41f158179',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.24.1',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '1111112',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004976s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:34:26+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.217071s] [吞吐率：4.61req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000501s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006237s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004749s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:34:26+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.154983s] [吞吐率：6.45req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000195s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004857s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0214zfX82ZAvMN0NHbX82buXW824zfXn',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006130s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:34:26+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.186342s] [吞吐率：5.37req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005647s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003546s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:35:10+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.084813s] [吞吐率：11.79req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003941s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011AWOrh1r09Uu0MHxth1qFNrh1AWOrn',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003977s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:35:24+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.138107s] [吞吐率：7.24req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000180s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009290s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011oZXZI0yiwOd2sB73J0nWTZI0oZXZM',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006298s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:35:24+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.212790s] [吞吐率：4.70req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000262s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006268s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004729s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:35:24+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.235619s] [吞吐率：4.24req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000211s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015533s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.013506s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:36:23+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.076920s] [吞吐率：13.00req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000152s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003201s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001sWTaS16Xze21NFobS1ts9bS1sWTaU',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003089s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:38:01+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.100562s] [吞吐率：9.94req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003977s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081X8wEo0ZqyGn1uLQDo0cLtEo0X8wE3',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003558s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:38:25+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.110057s] [吞吐率：9.09req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000173s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008125s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071pa6rt1nSFdg0JAEpt1MPcrt1pa6r7',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006916s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:40:08+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.279254s] [吞吐率：3.58req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000200s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004360s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061LlWMb0i956y1hqkOb0tifNb0LlWMA',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004756s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:40:08+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.449569s] [吞吐率：2.22req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000208s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028313s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006100s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:40:08+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.469146s] [吞吐率：2.13req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000166s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004701s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008953s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:45:46+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.235891s] [吞吐率：4.24req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000183s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.084779s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0715hSGJ0EYM6b2pG6GJ0TrgHJ05hSGH',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005379s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:45:46+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.276246s] [吞吐率：3.62req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000176s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006064s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.014947s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:45:46+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.615576s] [吞吐率：1.62req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000167s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005146s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005875s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:46:25+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.172792s] [吞吐率：5.79req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000317s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005078s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061EGqzD0eivUg2nYIAD0xKqzD0EGqz7',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004699s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:46:25+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.330859s] [吞吐率：3.02req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006561s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005605s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:11+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.317988s] [吞吐率：3.14req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000165s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004234s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005304s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:11+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.245777s] [吞吐率：4.07req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000198s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.076681s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071VSEEi1kPZgt033tDi1fSyEi1VSEEb',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004369s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:11+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.382520s] [吞吐率：2.61req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000260s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003733s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007923s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:29+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.235140s] [吞吐率：4.25req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000175s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006797s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071SwsBd0w8FLy1Pmezd0tU6Bd0SwsBg',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.023118s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.514499s] [吞吐率：1.94req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003676s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003810s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:47:30+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.497444s] [吞吐率：2.01req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000166s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017119s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007358s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:00+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.191713s] [吞吐率：5.22req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.085189s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001MlTCY0y4AdY1IysEY0CvPCY0MlTC1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004359s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:00+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.521269s] [吞吐率：1.92req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000605s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009340s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003399s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:00+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.425866s] [吞吐率：2.35req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006676s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007901s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:14+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.113715s] [吞吐率：8.79req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000153s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003551s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071zZhJa1jcUYy0GjVFa1cJcJa1zZhJ7',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003410s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:14+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.245993s] [吞吐率：4.07req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000810s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011610s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006225s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:14+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.383450s] [吞吐率：2.61req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000171s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007289s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012891s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:59+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.140030s] [吞吐率：7.14req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000560s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.024268s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081FAXih1vRhLu0m7Zjh1xg8jh1FAXih',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009069s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:48:59+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.314897s] [吞吐率：3.18req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000177s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003871s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005222s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:00+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.371926s] [吞吐率：2.69req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000154s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.025734s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012261s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:06+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.163190s] [吞吐率：6.13req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000163s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006443s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081SfMbw1YZyRd0Gz5ew1mxJbw1SfMbx',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.019827s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:06+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.272919s] [吞吐率：3.66req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000169s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004369s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012683s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:06+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.194384s] [吞吐率：5.14req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007108s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003521s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:30+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.303229s] [吞吐率：3.30req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000150s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004407s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007026s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:30+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.257909s] [吞吐率：3.88req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000170s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065854s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021dPYGb0WZ70y1thOHb07daHb0dPYGq',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008026s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:49:30+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.391403s] [吞吐率：2.55req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000181s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018906s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015464s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:21+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.109570s] [吞吐率：9.13req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000199s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006648s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081PvhWy11DScd04SDXy1OO9Wy1PvhWb',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006081s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:22+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.239347s] [吞吐率：4.18req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003866s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003384s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:22+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.403509s] [吞吐率：2.48req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000165s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011883s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009086s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:58+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.103055s] [吞吐率：9.70req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000202s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006348s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071EVP1r0la5Xk1LNz1r0kkR1r0EVP19',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004039s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:59+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.241341s] [吞吐率：4.14req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003940s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004872s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:53:59+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.276672s] [吞吐率：3.61req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013836s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006689s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:23+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.093528s] [吞吐率：10.69req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000152s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003332s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071ocI8i08Mieu17sv6i0e7J8i0ocI8R',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004053s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:23+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.234186s] [吞吐率：4.27req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000211s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004186s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004427s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:24+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.310357s] [吞吐率：3.22req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000196s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010690s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003681s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:31+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/Token/getToken
+[运行时间：0.218308s] [吞吐率：4.58req/s] [内存消耗：2,696.07kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000166s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004913s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071Wl7250tHrXE1dzoZ40zlQ150Wl72I',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004824s ]
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:31+08:00 ] 127.0.0.1 GET www.lsgxcx.com/api/v1/banner/getBanner/id/1
+[运行时间：0.227470s] [吞吐率：4.40req/s] [内存消耗：4,705.70kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005141s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.banner',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004659s ]
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-17T17:54:31+08:00 ] 127.0.0.1 POST www.lsgxcx.com/api/v1/store/storeCardGet
+[运行时间：0.266674s] [吞吐率：3.75req/s] [内存消耗：4,583.66kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000179s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015967s ]
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.store',
+    2 => 'storeCardGet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc4cce3677eaa734e/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.2004020 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'origin' => 'http://127.0.0.1:16318',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'www.lsgxcx.com',
+)
+[ info ] [ PARAM ] array (
+  'longitude' => 117.26497,
+  'latitude' => 31.87872,
+)
+[ info ] [ LANG ] D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005360s ]
+[ info ] [ RUN ] app\api\controller\v1\Store->storeCardGet[ D:\software\phpstudy_pro\WWW\wwwlsgxcxcom\application\api\controller\v1\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

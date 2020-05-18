@@ -4,6 +4,8 @@
 namespace app\api\controller\v1;
 
 
+use app\api\service\UserToken;
+use app\api\validate\TokenGet;
 use think\Request;
 
 class Token
@@ -21,9 +23,20 @@ class Token
     public function getToken($code=''){
 
         if(\request()->isPost()){
-          $posts = \request()->param();
-           return json($posts);
-
+//          $response = [
+//              'openid'=>1,
+//              'userId'=>2,
+//              'errcode'=>0
+//          ];
+//          return json($response);
+            (new TokenGet())->goCheck();
+            $wx = new UserToken($code);
+            $token = $wx->get();
+            $response = [
+              'errcode'=>0,
+              'token'=>$token
+            ];
+            return json($response);
         }
 
 

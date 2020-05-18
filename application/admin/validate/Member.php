@@ -12,7 +12,7 @@ class Member extends Validate
      */
     protected $rule = [
         //unique:member  表示在哪一张表中
-        'member_tel'  => 'require|max:11|/^1[3-8]{1}[0-9]{9}$/|unique:member',
+       'member_tel'  => 'require|max:11|/^1[3-8]{1}[0-9]{9}$/|unique:member',
     ];
     /**
      * 提示消息

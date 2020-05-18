@@ -30,6 +30,16 @@ class Member extends Model
     public function store(){
         return $this->hasOne('Store','id','member_store_id');
     }
+
+    /**
+     * 用户是否存在
+     * 存在返回uid，不存在返回0
+     */
+    public static function getByOpenId($openid){
+        $memberUser = Member::where('openid','=',$openid)->find();
+        return $memberUser;
+    }
+
     
 
     

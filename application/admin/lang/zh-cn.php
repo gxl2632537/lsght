@@ -182,5 +182,6 @@ return [
     'Rule tips'                                             => '规则通常对应一个控制器的方法,同时左侧的菜单栏数据也从规则中体现,通常建议通过命令行进行生成规则节点',
     'Access is allowed only to the super management group'  => '仅超级管理组能访问',
     'Local addon'                                           => '本地插件',
-    'AddBannerItem'                                         =>'添加banner子选项'
+    'AddBannerItem'                                         =>'添加banner子选项',
+    'Wxconfigure'                                         =>'小程序配置'
 ];
